@@ -23,7 +23,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://job-portal-cyan-one.vercel.app/getuser",
+          "https://job-portal-cyan-one.vercel.app/user/getuser",
           {
             withCredentials: true,
           }
